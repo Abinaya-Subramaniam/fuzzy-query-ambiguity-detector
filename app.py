@@ -1,6 +1,6 @@
 import streamlit as st
 from nlp_utils import preprocess_query, calculate_features, get_detailed_analysis
-from ambiguity import fuzzy_system
+from fuzzy_ambiguity import fuzzy_system
 
 st.set_page_config(
     page_title="Fuzzy Ambiguity Detector",
